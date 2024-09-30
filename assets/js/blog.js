@@ -3,8 +3,8 @@ const main = document.querySelector("main"); // select the main element
 const backButton = document.querySelector(".back-button"); // select the back button element
 
 // TODO: Create a function that builds an element and appends it to the DOM
-function buildElement(element, text) {
-  const newElement = document.createElement(element); // create a new element
+function buildElement(article, text) {
+  const newElement = document.createElement(article); // create a new element
   newElement.textContent = text; // set the text content of the new element
   main.appendChild(newElement); // append the new element to the main element
 }
